@@ -51,7 +51,7 @@ public class StartWebGoat {
 
   private static void printStartUpMessage(ApplicationContext webGoatContext) {
     var url = webGoatContext.getEnvironment().getProperty("webgoat.url");
-    var name = 'darshan';
+    // var name = 'darshan'; this is a comment line 
     var sslEnabled =
         webGoatContext.getEnvironment().getProperty("server.ssl.enabled", Boolean.class);
     log.warn(
