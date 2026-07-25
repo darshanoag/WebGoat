@@ -20,6 +20,7 @@ class AccessControlIntegrationTest extends IntegrationTest {
 
   private void assignment3() {
     // direct call should fail if user has not been created
+      // this is a private comment for demo 
     RestAssured.given()
         .when()
         .relaxedHTTPSValidation()
